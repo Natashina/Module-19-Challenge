@@ -8,6 +8,6 @@
 The OneHotEncoder has been used to produce encoded DataFrames for APPLICATION_TYPE, CLASSIFICATION, AFFILIATION, etc. With Pandas’ merge and drop methods
 the original columns were replaced with encoded features.
 
-3. ASK_AMT column contains 8747 different amounts. To group them there were eight bins created as following:  ['<10K', '10K-24.9K', '25K-99.9K', '100K-999.9K', '1M-4.9M', '5M-9.9M', '10M-49.9M', '50M+']. A new column ASK_AMT_Ranges has been created and then encoded.
+3. ASK_AMT column contains 8747 different amounts. To group them there were eight bins created as following:  ['<10K', '10K-24.9K', '25K-99.9K', '100K-999.9K', '1M-4.9M', '5M-9.9M', '10M-49.9M', '50M+']. A new column ASK_AMT_Ranges has been created and then encoded. 
 
-4.
+4. Columns with Status, ASK_AMT, NAME, EIN were dropped.
