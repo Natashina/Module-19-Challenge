@@ -18,5 +18,5 @@ The results of training epochs are shown below.
 The most important features are 'AFFIL_2','AFFIL_1', 'ORG_Association' and the least important are 'SPEC_CONS_N', 'SPEC_CONS_Y', 'USE_Other'. After we eliminated three least important features the results almost have not changed.
 ![Chart2](Capture2.2.PNG)
 
-6. Changing output layer activation finction from Sigmoid to ReLU made the resulting parameters worse.
+6. Changing output layer activation finction from Sigmoid to ReLU made the resulting parameters worse, because model loss is deteriorating.
 ![Chart3](Capture2.3.PNG)
