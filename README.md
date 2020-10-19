@@ -22,4 +22,4 @@ The most important features are 'AFFIL_2','AFFIL_1', 'ORG_Association' and the l
 ![Chart3](Capture2.3.PNG)
 
 7. For this trial the columns with three other least important features - 'ORG_Corporation', 'USE_Heathcare', 'AFFIL_3' were removed. The performance metrics of the model   are slightly improved.
-![Chart4](Capture2.3.PNG)
+![Chart4](Capture2.4.PNG)
