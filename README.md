@@ -23,3 +23,10 @@ The most important features are 'AFFIL_2','AFFIL_1', 'ORG_Association' and the l
 
 7. For this trial the columns with three other least important features - 'ORG_Corporation', 'USE_Heathcare', 'AFFIL_3' were removed. Again the performance metrics of the model almost have not changed.
 ![Chart4](Capture2.4.PNG)
+
+8. The next trial is to add one more hidden layer, so we would have three layers and bigger numbers of neurons as following: hidden_nodes_layer1 = 384, hidden_nodes_layer2 = 192
+hidden_nodes_layer3 = 96
+![Chart5](Capture3.3.PNG)
+
+9. Refer to the file ASC1.ipynb. A new "numeric Name" column was created and unique names are assigned with unique numbers.
+
