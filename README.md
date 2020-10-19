@@ -28,7 +28,7 @@ The most important features are 'AFFIL_2','AFFIL_1', 'ORG_Association' and the l
 hidden_nodes_layer3 = 96
 ![Chart5](Capture3.3.PNG)
 
-9. Refer to the file ASC1.ipynb file. For a new attempt to improve the results of the model, a "numeric Name" column was created and unique names are assigned with unique numbers. It allowed us to keep the names of the organisatisations as one of the features of the input data. However this change did not bring better metrics.
+9. Refer to the file ASC1.ipynb file. For a new attempt to improve the results of the model, a "numeric Name" column was created and unique names were assigned with unique numbers. It allowed us to keep the names of the organisatisations as one of the features of the input data. However this change did not bring better metrics.
 ![Chart6](Capture4.PNG)
 
 Conclusion. The only change that made our performance metrics more acceptable was addition of one more hidden layer with increased number of neurons. Model loss decreased to 0.5 and accuracy of 0.77 was greater than the target accuracy of 0.75.
