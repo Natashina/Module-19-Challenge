@@ -2,7 +2,7 @@
 
 ## The purpose of this Challenge is to build your own machine learning model that will be able to predict the success of a venture paid by Alphabet soup and use different strategies on improving a model's performance.
 
-1. Exploring the data types in our dataframe by org_df.dtypes, we find out that most of the columns are with categorical values and four columns with numerical values - EIN, STATUS, ASK_AMT, IS_SUCCESSFUL. Therefore we had to convert data with object data type to numeric. 
+1. Refer to the file AlphabetSoupChallenge.ipynb file. Exploring the data types in our dataframe by org_df.dtypes, we find out that most of the columns are with categorical values and four columns with numerical values - EIN, STATUS, ASK_AMT, IS_SUCCESSFUL. Therefore we had to convert data with object data type to numeric. 
 
 2. Looking at the unique value counts, there are variables that appear frequently in the dataset, however, many of them appear semi-frequently and even rarely appear in the dataset. According to the nunique method, some of the categorical variables have more than 10 unique values, such as APPLICATION_TYPE, CLASSIFICATION, etc.
 The OneHotEncoder has been used to produce encoded DataFrames for APPLICATION_TYPE, CLASSIFICATION, AFFILIATION, etc. With Pandas’ merge and drop methods
@@ -28,5 +28,7 @@ The most important features are 'AFFIL_2','AFFIL_1', 'ORG_Association' and the l
 hidden_nodes_layer3 = 96
 ![Chart5](Capture3.3.PNG)
 
-9. Refer to the file ASC1.ipynb. A new "numeric Name" column was created and unique names are assigned with unique numbers.
+9. Refer to the file ASC1.ipynb file. For a new attempt to improve the results of the model, a "numeric Name" column was created and unique names are assigned with unique numbers. It allowed us to keep the names of the organisatisations as one of the features of the input data. However this change did not bring better metrics.
+![Chart6](Capture4.PNG)
 
+Conclusion. The only change that made our performance metrics more acceptable was addition of one more hidden layer with increased number of neurons.
