@@ -16,4 +16,7 @@ The results of training epochs are shown below.
 
 5. In order to improve the perforemance we are going to use Random Forest Classifier to rank the importance of input variables.
 The most important features are 'AFFIL_2','AFFIL_1', 'ORG_Association' and the least important are 'SPEC_CONS_N', 'SPEC_CONS_Y', 'USE_Other'. After we eliminated three least important features the results almost have not changed.
-![Chart1](Capture2.2.PNG)
+![Chart2](Capture2.2.PNG)
+
+6. Changing output layer activation finction from Sigmoid to ReLU made the resulting parameters worse.
+![Chart3](Capture2.3.PNG)
